@@ -37,6 +37,12 @@ public class Main {
         int result5 = obj2.binToDeci(100000);
         System.out.println("Equivalent Binary: "+result5);
 
-
+        /* Sorting Algorithms Input and Output */
+        Sorting obj3 = new Sorting();
+        int[] arr2 = {6, 3, 9, 5, 2, 8, -2, -4};
+        obj3.mergeSort(arr2, 0,arr2.length-1);
+        for (int i = 0; i<arr2.length; i++){
+            System.out.print(arr2[i]+" ");
+        }
     }
 }
